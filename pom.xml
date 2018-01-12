@@ -13,12 +13,13 @@
         <module>person</module>
         <module>some</module>
         <module>ui</module>
+        <module>monitor</module>
     </modules>
     <packaging>pom</packaging>
     <parent>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-parent</artifactId>
-        <version>1.0.2.RELEASE</version>
+        <version>Dalston.SR4</version>
         <relativePath/>
     </parent>
     <properties>
@@ -30,17 +31,14 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>1.5.9.RELEASE</version>
-        </dependency>
+            </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-actuator</artifactId>
-            <version>1.5.9.RELEASE</version>
-        </dependency>
+            </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <version>1.5.9.RELEASE</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -49,8 +47,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>1.5.9.RELEASE</version>
-            </plugin>
+                </plugin>
         </plugins>
     </build>
 </project>
